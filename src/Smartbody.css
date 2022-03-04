@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.nav-bar{
+    display: flex;
+
+}
+.body-div{
+  overflow-x: hidden;
+}
+.logo-div{
+    flex: 50%;
+
+}
+.project-div,.about-div,.contact-div,.news-div,.service-div{
+text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 30px;
+    background-color: FFFFFF;
+    text-decoration: none;
+    color: black;
+  }
+  li a:hover {
+      color:rgb(230, 159, 29);
+      transition: 0.4s;
+  }
+  .vill{
+    font-weight:bold;
+    font-size: 60px;
+    color: rgb(196, 9, 3);
+  }
+  .App-logo {
+    /* height: 40vmin; */
+    pointer-events: none;
+  }
+  img{
+    height: 17cm;
+    width: 135ch;
+  }
+  .image1-div{
+    margin-top: 20px;
+    padding: 11%;
+    background-image: url(./Smartlux3.png);
+    background-size: cover;
+    height:100;
+    width: 100%;
+    background-repeat: no-repeat;
+
+  }
+  .logo1-div{
+    position:absolute;
+    width: 100px;
+    height: 70px;
+    margin: 4px;
+    top: 0.5%;
+    left: 8%;
+  }
+  .icon-div{
+    background-color: black;
+    color: white;
+    padding: 0.5%;
+  }
+  i{
+    padding: 1%;
+  }
+  .icon-div i:hover{
+    color:rgb(241, 180, 11);
+  }
+  .pro-div{
+    display:inline-flex;
+  }
+ a i {
+  padding: 5%;
+ }
+ .projectbutton-div{
+   padding: 15% 5% 5% 5%;
+ }
+ .project-button{
+   background-color: rgb(196, 9, 3);
+   border: 0px ;
+   padding: 2% 4% 2% 4% ;
+   font-weight:600;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border-radius: 5px 5px 5px 5px;
+   display: inline-flex;
+   cursor: pointer;
+ }
+ .project-button i{
+   float: right;
+ }
+ .view-project{
+   width: 3cm;
+ }
+ .project-button:hover{
+  background-color: rgb(241, 58, 52);
+}
+ /* .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+} */
+.Project-div{
+  padding: 5%;
+  text-align: center;
+}
+.project1-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 13% 8% 13%;
+}
+.orch{
+  margin-left: 50px;
+}
+.meadow1-div{
+ flex: 50%;
+ width: 600px;
+ height: 500px;
+ margin-right: 50px;
+ transition: transform .6s;
+ background-size: contain;
+ border-radius: 5%;
+}
+.meadow1-div:hover{
+  transform: scale(1.1);
+  opacity: 0.9;
+  cursor: grabbing;
+}
+.meadow2-div{
+ flex: 50%;
+ width: 600px;
+ height: 500px;
+ margin-left: 50px;
+ transition: transform .6s;
+ border-radius: 5%;
+}
+.meadow2-div:hover{
+  transform: scale(1.1);
+  opacity: 0.9;
+  cursor: grabbing;
+
+}
+/* .serve1-div,.serve2-div{
+  display: grid;
+} */
+.About-div{
+  padding: 5%;
+  text-align: center;
+}
+.services-div{
+  padding: 5% 5% 1% 5%;
+  text-align: center;
+}
+.meadowtext1-div, .orch{
+  padding: 1cm;
+}
+.pro-div{
+  background-size: cover;
+  z-index: auto;
+}
+.jimo-develop{
+  width: 50%;
+  height: 50%;
+}
+.about-us{
+  display: flex;
+  padding: 1% 10% 10% 10%;
+}
+.about-text{
+  padding: 5%;
+  display: grid;
+}
+.services{
+  width: 40%;
+  height: 10%;
+}
+.service1-div, .service2-div{
+  display: flex;
+  padding: 5%;
+}
+.service1-h3,.service2-h3{
+  padding: 0% 3% 3% 3%;
+}
+.prop-div,.manage-div{
+  padding: 4%;
+}
+.seperate-footer{
+  display: flex;
+  /* background-color: aquamarine; */
+}
+.footer-div{
+  background-size: contain;
+  background-image: url(./garage.png);
+  background-image: linear-gradient(to right, rgb(7, 4, 4) 35%,transparent 130%), url(./garage.png);
+
+}
+.contact-div{
+  flex: 50%;
+  display: grid;
+}
+.newsletter-div{
+  flex: 50%;
+  display: grid;
+}
+.all-icon{
+  display: grid;
+  color: antiquewhite;
+
+}
+.all-icon i{
+  width: 85%;
+  font-size: 30px;
+  
+}
+.marker-div,.phone-div,.envelope-div,.whatsapp-div{
+  display: flex;
+  margin-top: 3%;
+}
+.marker-div i,.phone-div i,.envelope-div i,.whatsapp-div i{
+  width: 5%;
+  margin-left: 5%;
+  font-weight: 900;
+}
+.contact-p,.latest-div{
+  margin-left: 8%;
+  margin-right: 9%;
+  color: antiquewhite;
+  font-weight: 800;
+}
+.h3-connect,.h3-contact,.h3-newsletter,.latest-div{
+  margin: 3%;
+  color: antiquewhite;
+}
+.name-div,.email-div{
+  width: 50%;
+  margin: 1%;
+  height: 60%;
+  padding: 0.5%;
+  border-radius: 0% 20% 0% 20%;
+  border: 0px;
+}
+.subscribe-button{
+  margin: 2%;
+  padding: 2% 5% 2% 5%;
+  background-color: red;
+  border: 0px;
+  border-radius: 10%;
+}
+.subscribe-button:hover{
+  background-color: rgb(226, 99, 99);
+  cursor:grab;
+}
+.social-icon{
+  display: flex;
+  justify-content: center;
+  color: antiquewhite;
+}
+.instagram-div,.facebook-div,.twitter-div,.linkedin-div{
+  padding: 2%;
+  font-size: 30px;
+}
+.instagram-div{
+  color: rgb(245, 243, 243);
+  margin: 0%;
+  height: 0%;
+}
+.hr-div{
+  width: 70%;
+  margin: 0% 0% 0% 15%;
+}
+.reserved-div{
+  color:antiquewhite;
+  text-align: center;
+  padding: 1.5%;
+}
+  /* @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  } */
+  
+

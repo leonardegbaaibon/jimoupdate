@@ -31,14 +31,14 @@ li {
   float: left;
 }
 
-li a {
+li link {
   display: block;
   padding: 30px;
   background-color: FFFFFF;
   text-decoration: none;
   color: black;
 }
-li a:hover {
+li link:hover {
     color:rgb(230, 159, 29);
     transition: 0.4s;
 }
@@ -127,7 +127,7 @@ li a:hover {
   .pro-div{
     display:inline-flex;
   }
- a i {
+ link i {
   padding: 5%;
  }
  .projectbutton-div{

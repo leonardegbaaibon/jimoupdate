@@ -78,9 +78,11 @@ li a:hover {
   }
   .slide2-div{
     background-image: url(./smartlux2.png);
+    background-size:cover;
   }
   .slide1-div{
     background-image: url(./Smart.png);
+    background-size: contain;
   }
   .slide3-div{
     background-image: url(./Smartlux3.png);
@@ -345,5 +347,30 @@ li a:hover {
       animation: App-logo-spin infinite 20s linear;
     }
   } */
-  
-
+.main-service1,.main-service2,.main-service3{
+    display: flex;
+    margin: 10% 0% 10% 0%;
+    padding: 3% 10% 3% 10%;
+    background-color: rgb(210, 214, 218);
+}
+.service-img1,.service-img2,.service-img3{
+    width: 50%;
+    height: 3%;
+}
+.service-text1,.service-text2,.service-text3{
+  margin: 3%;
+    animation-name: slidein; 
+    animation-duration: 3s;
+}
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    width: 100%;
+    height: 10%;
+  }
+  to {
+    margin-top: 3%;
+    width: 100%;
+    height: 10%;
+  }
+}

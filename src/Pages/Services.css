@@ -46,20 +46,8 @@ li a:hover {
   font-weight:bold;
   font-size: 60px;
   color: rgb(196, 9, 3);
-  animation-name: slidein;
-  animation-duration: 3s;
 }
-  @keyframes slidein {
-    from {
-      margin-bottom: 100%;
-      width: 300%;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
+
   
   .App-logo {
     /* height: 40vmin; */
@@ -75,12 +63,25 @@ li a:hover {
     height:100;
     width: 100%;
     position: relative;
+    animation-name: slidein;
+    animation-duration: 3s;
+  }
+  @keyframes slidein {
+    from {
+      margin-bottom: 100%;
+    }
+  
+    to {
+      margin-bottom: 0%;
+    }
   }
   .slide2-div{
     background-image: url(./smartlux2.png);
+    background-size:cover;
   }
   .slide1-div{
     background-image: url(./Smart.png);
+    background-size: contain;
   }
   .slide3-div{
     background-image: url(./Smartlux3.png);
@@ -345,5 +346,32 @@ li a:hover {
       animation: App-logo-spin infinite 20s linear;
     }
   } */
-  
-
+.main-service1,.main-service2,.main-service3{
+    display: flex;
+    margin: 10% 0% 10% 0%;
+    padding: 3% 10% 3% 10%;
+    background-color: rgb(210, 214, 218);
+}
+.service-img1,.service-img2,.service-img3{
+    width: 50%;
+    height: 3%;
+    background-color: transparent;
+    display:inline;
+}
+.service-text1,.service-text2,.service-text3{
+  position: relative;
+  display:inline-block;
+   margin: 3%;
+    animation-name: mymove; 
+    animation-duration: 3s;
+}
+@keyframes mymove {
+  from {
+    margin-left: 100%;
+    height: 0%;
+  }
+  to {
+    margin-left: 3%;
+    height:0%;
+  }
+}

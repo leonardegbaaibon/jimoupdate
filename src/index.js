@@ -1,13 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Smartbody from './smartlux';
-import ChatRecipientPicker from './testing';
+import Homepage from './Pages/smartlux';
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Services from './Pages/Services';
+import Project from './Pages/Project';
+import About from './Pages/About';
+// import ChatRecipientPicker from './testing';
 import reportWebVitals from './reportWebVitals';
+
+
+// export default function App() {
+//   return (
+//     <BrowserRouter>
+//       <Routes>
+//         <Route path="/" element={<Homepage />}>
+//           <Route index element={<Homepage />} />
+//           <Route path="Services" element={<Services />} />
+//           <Route path="Project" element={<Project />} />
+//           <Route path="contact" element={<About />} />
+//         </Route>
+//       </Routes>
+//     </BrowserRouter>
+//   );
+// }
 
 ReactDOM.render(
   <React.StrictMode>
-    <Smartbody />
+    <About />
   </React.StrictMode>,
   document.getElementById('root')
 );
